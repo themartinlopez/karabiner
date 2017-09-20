@@ -1,0 +1,29 @@
+{
+
+    "title": "Change fn + right shift to caps”,
+
+    "rules": [
+
+        {
+
+            "description": "Change right shift + fn to caps”,
+
+            "manipulators": [
+
+                {
+
+                    "type": "basic",
+
+                    "from": <%= from(“fn”, [“right_shift"], []) %>,
+
+                    "to": <%= to([["caps_lock”]]) %>
+
+                }
+
+            ]
+
+        }
+
+    ]
+
+}
