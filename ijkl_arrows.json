@@ -1,8 +1,8 @@
 {
-    "title": "Diamond Cursor",
+    "title": "fn + ijkl arrows",
     "rules": [
         {
-            "description": "Change fn + I/J/K/L to Arrow Keys",
+            "description": "Recommend to swap fn & caps_lock keys",
             "manipulators": [
                 {
                     "type": "basic",
