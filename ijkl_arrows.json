@@ -47,7 +47,30 @@
                         }
                     },
                     "to": [{"key_code": "right_arrow"}]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "n",
+                        "modifiers": {
+                            "mandatory": ["fn"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "end"}]
+                },
+                {
+                    "type": "basic",
+                    "from": {
+                        "key_code": "h",
+                        "modifiers": {
+                            "mandatory": ["fn"],
+                            "optional": ["any"]
+                        }
+                    },
+                    "to": [{"key_code": "home"}]
                 }
+
             ]
         }
     ]
